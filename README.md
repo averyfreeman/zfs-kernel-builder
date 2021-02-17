@@ -27,9 +27,9 @@ invoke script with $ZFS_VERSION $KERNEL_VERSION and $MAKECOMMAND (optional)
 % ./build-zfs-kernel.sh 2.0.3 5.10.17 modconfig
 ```
 
-Latest zfs releases: https://github.com/openzfs/zfs/releases
-List of compatible kernels:  https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/
-Make commands (not required) - discussion: https://www.reddit.com/r/linux/comments/1aq1vg/linux_protip_if_youre_building_a_custom_local/ 
+- Latest zfs releases: https://github.com/openzfs/zfs/releases
+- List of compatible kernels:  https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/
+- Make commands (not required) - discussion: https://www.reddit.com/r/linux/comments/1aq1vg/linux_protip_if_youre_building_a_custom_local/ 
 
 Tested Ubuntu 20.04 and 20.10.
 
