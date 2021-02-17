@@ -14,6 +14,19 @@ More of a series of commands than a proper script, but it works
 
 ## Written for debian and derivatives (can still compile zfs rpms, though)
 
-Tested Ubuntu 20.04 and 20.10. Try it, you'll like it!
+To run - retrieve build dependencies:
 
-Please fork and improve, or submit PRs, I'm definitely no bash expert
+```
+% chmod +x *.sh
+% ./install-build-requirements.sh
+```
+
+invoke script with $ZFS_VERSION $KERNEL_VERSION and $MAKECOMMAND (optional)
+
+```
+% ./build-zfs-kernel.sh 2.0.3 5.10.17 modconfig
+```
+
+Tested Ubuntu 20.04 and 20.10.
+
+Please fork or submit PRs.
