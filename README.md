@@ -12,7 +12,11 @@ More of a series of commands than a proper script, but it works
 - Renders zfs-initramfs, zfs-dracut packages unnecessary
 - Tracks stock kernel config - should work fine!
 
-## Written for debian and derivatives (can still compile zfs rpms, though)
+## Kernel portion written for debian and derivatives\*
+
+#### \*(can still compile zfs rpms, though)
+
+To run - retrieve build dependencies:
 
 To run - retrieve build dependencies:
 
