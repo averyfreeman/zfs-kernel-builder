@@ -17,16 +17,12 @@ More of a series of commands than a proper script, but it works
 #### \*(can still compile zfs rpms, though)
 
 To run - retrieve build dependencies:
-
-To run - retrieve build dependencies:
-
 ```
 % chmod +x *.sh
 % ./install-build-requirements.sh
 ```
 
 invoke script with $ZFS_VERSION $KERNEL_VERSION and $MAKECOMMAND (optional)
-
 ```
 % ./build-zfs-kernel.sh 2.0.3 5.10.17 modconfig
 ```
