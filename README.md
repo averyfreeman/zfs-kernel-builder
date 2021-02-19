@@ -23,8 +23,14 @@ To run - retrieve build dependencies:
 ```
 
 invoke script with $ZFS_VERSION $KERNEL_VERSION and $MAKECOMMAND (optional)
+Example:
 ```
 % ./build-zfs-kernel.sh 2.0.3 5.10.17 modconfig
+```
+
+Or run without any make command - e.g.:
+```
+% ./build-zfs-kernel.sh 2.0.3 5.10.17
 ```
 
 - Latest zfs releases: https://github.com/openzfs/zfs/releases
