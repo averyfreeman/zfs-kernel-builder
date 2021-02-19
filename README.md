@@ -14,7 +14,7 @@ More of a series of commands than a proper script, but it works
 
 ## Kernel portion written for debian and derivatives\*
 
-#### \*(can still compile zfs rpms, though)
+#### \*(can be modified to compile zfs rpms, but not kernels)
 
 To run - retrieve build dependencies:
 ```
