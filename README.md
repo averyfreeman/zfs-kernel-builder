@@ -32,6 +32,9 @@ Or run without any make command - e.g.:
 ```
 % ./build-zfs-kernel.sh 2.0.3 5.10.17
 ```
+The above two arguments, $ZFS_VERSION and $KERNEL_VERSION are required.
+
+### Resources:
 
 - Latest zfs releases: https://github.com/openzfs/zfs/releases
 - List of compatible kernels:  https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/
