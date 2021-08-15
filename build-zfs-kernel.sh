@@ -1,4 +1,4 @@
-#!/usr/bin/bash +xv
+#!/usr/bin/env bash +xv
 # Last updated 1-22-21
 # Script requires 3 arguments:
 # ZFS_VER KERNEL_VER and MAKECOMMAND

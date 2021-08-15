@@ -36,10 +36,12 @@ The above two arguments, $ZFS_VERSION and $KERNEL_VERSION are required.
 
 ### Resources:
 
+Find the versions you'd like to use with the builder:
+
 - Latest zfs releases: https://github.com/openzfs/zfs/releases
 - List of compatible kernels:  https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/
 - Make commands (not required) - discussion: https://www.reddit.com/r/linux/comments/1aq1vg/linux_protip_if_youre_building_a_custom_local/ 
 
-Tested Ubuntu 20.04 and 20.10.
+Tested Ubuntu 20.04 through 21.04, Debian 10 and 11-testing repo (aka 11-lite™).
 
-Please fork or submit PRs.
+Released under [WTFPL](http://www.wtfpl.net/) Please fork or submit PRs.
